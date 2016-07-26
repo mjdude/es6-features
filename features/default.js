@@ -7,6 +7,6 @@
 
 function greetUser (user ={ name: 'Mo'}){
   console.log('Hello ' + user.name);
-};
+}
 
 greetUser({name: 'Jo'});
