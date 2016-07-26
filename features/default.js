@@ -9,4 +9,4 @@ function greetUser (user ={ name: 'Mo'}){
   console.log('Hello ' + user.name);
 };
 
-greetUser();
+greetUser({name: 'Jo'});
